@@ -12,7 +12,7 @@
 				<div id="profile-summary">
 					<div class="content">
 						<img class='avatar' src='img/alagoon.jpg' />
-						<p>Your Name Here</p>
+						<p>Henry</p>
 					</div>
 				</div>
 				<div id="tweet-content">
@@ -23,7 +23,7 @@
 
 					<!-- STEP 1: Initially, the Tweet button and the character count button below should be hidden. -->
 					<!-- HINT: Use CSS -->
-					<div id="tweet-controls">
+					<div id="tweet-controls"class="hide">
 
 						<!-- STEP 3: As the user types the character count should decrease. Once it hits 10 character or less the count should turn red -->
 						<!-- HINT: jQuery keypress events (keypress, keydown, keyup, etc) -->
@@ -169,6 +169,8 @@
 									1:04 PM - 19 Sep 13
 								</div>
 							</div>
+							<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
+							<script src="./js/animations.js"></script>
 							<div class="reply">
 								<img class="avatar" src="img/alagoon.jpg" />
 								<textarea class="tweet-compose" placeholder="Reply to @mybff"/></textarea>

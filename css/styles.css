@@ -132,6 +132,7 @@ body {
 		}
 			#tweet-controls div {
 				display: inline-block;
+
 			}
 			#char-count {
 				font-size: 14px;
@@ -258,5 +259,6 @@ body {
 				top: 0;
 				left: 0;
 			}
-
-
+			.hide {
+				display: none;
+			}
